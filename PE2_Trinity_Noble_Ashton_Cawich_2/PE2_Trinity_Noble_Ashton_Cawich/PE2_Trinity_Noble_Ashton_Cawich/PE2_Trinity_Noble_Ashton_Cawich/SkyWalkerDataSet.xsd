@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SkyWalkerDataSet" targetNamespace="http://tempuri.org/SkyWalkerDataSet.xsd" xmlns:mstns="http://tempuri.org/SkyWalkerDataSet.xsd" xmlns="http://tempuri.org/SkyWalkerDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SkyWalkerConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SkyWalkerConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PE2_Trinity_Noble_Ashton_Cawich.My.MySettings.GlobalReference.Default.SkyWalkerConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SkyWalkerDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="SkyWalkerDataSet" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="SkyWalkerDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblMem" msprop:Generator_RowEvHandlerName="tblMemRowChangeEventHandler" msprop:Generator_RowDeletedName="tblMemRowDeleted" msprop:Generator_RowDeletingName="tblMemRowDeleting" msprop:Generator_RowEvArgName="tblMemRowChangeEvent" msprop:Generator_TablePropName="tblMem" msprop:Generator_RowChangedName="tblMemRowChanged" msprop:Generator_RowChangingName="tblMemRowChanging" msprop:Generator_TableClassName="tblMemDataTable" msprop:Generator_RowClassName="tblMemRow" msprop:Generator_TableVarName="tabletblMem" msprop:Generator_UserTableName="tblMem">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
